@@ -1,0 +1,15 @@
+D:\GeekBrains\findevennum\obj\Debug\net6.0\findevennum.csproj.AssemblyReference.cache
+D:\GeekBrains\findevennum\obj\Debug\net6.0\findevennum.GeneratedMSBuildEditorConfig.editorconfig
+D:\GeekBrains\findevennum\obj\Debug\net6.0\findevennum.AssemblyInfoInputs.cache
+D:\GeekBrains\findevennum\obj\Debug\net6.0\findevennum.AssemblyInfo.cs
+D:\GeekBrains\findevennum\obj\Debug\net6.0\findevennum.csproj.CoreCompileInputs.cache
+D:\GeekBrains\findevennum\bin\Debug\net6.0\findevennum.exe
+D:\GeekBrains\findevennum\bin\Debug\net6.0\findevennum.deps.json
+D:\GeekBrains\findevennum\bin\Debug\net6.0\findevennum.runtimeconfig.json
+D:\GeekBrains\findevennum\bin\Debug\net6.0\findevennum.dll
+D:\GeekBrains\findevennum\bin\Debug\net6.0\findevennum.pdb
+D:\GeekBrains\findevennum\obj\Debug\net6.0\findevennum.dll
+D:\GeekBrains\findevennum\obj\Debug\net6.0\refint\findevennum.dll
+D:\GeekBrains\findevennum\obj\Debug\net6.0\findevennum.pdb
+D:\GeekBrains\findevennum\obj\Debug\net6.0\findevennum.genruntimeconfig.cache
+D:\GeekBrains\findevennum\obj\Debug\net6.0\ref\findevennum.dll
