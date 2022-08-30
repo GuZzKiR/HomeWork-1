@@ -1,0 +1,15 @@
+D:\GeekBrains\findmaxfrom3\obj\Debug\net6.0\findmaxfrom3.csproj.AssemblyReference.cache
+D:\GeekBrains\findmaxfrom3\obj\Debug\net6.0\findmaxfrom3.GeneratedMSBuildEditorConfig.editorconfig
+D:\GeekBrains\findmaxfrom3\obj\Debug\net6.0\findmaxfrom3.AssemblyInfoInputs.cache
+D:\GeekBrains\findmaxfrom3\obj\Debug\net6.0\findmaxfrom3.AssemblyInfo.cs
+D:\GeekBrains\findmaxfrom3\obj\Debug\net6.0\findmaxfrom3.csproj.CoreCompileInputs.cache
+D:\GeekBrains\findmaxfrom3\bin\Debug\net6.0\findmaxfrom3.exe
+D:\GeekBrains\findmaxfrom3\bin\Debug\net6.0\findmaxfrom3.deps.json
+D:\GeekBrains\findmaxfrom3\bin\Debug\net6.0\findmaxfrom3.runtimeconfig.json
+D:\GeekBrains\findmaxfrom3\bin\Debug\net6.0\findmaxfrom3.dll
+D:\GeekBrains\findmaxfrom3\bin\Debug\net6.0\findmaxfrom3.pdb
+D:\GeekBrains\findmaxfrom3\obj\Debug\net6.0\findmaxfrom3.dll
+D:\GeekBrains\findmaxfrom3\obj\Debug\net6.0\refint\findmaxfrom3.dll
+D:\GeekBrains\findmaxfrom3\obj\Debug\net6.0\findmaxfrom3.pdb
+D:\GeekBrains\findmaxfrom3\obj\Debug\net6.0\findmaxfrom3.genruntimeconfig.cache
+D:\GeekBrains\findmaxfrom3\obj\Debug\net6.0\ref\findmaxfrom3.dll
