@@ -1,21 +1,6 @@
-﻿int a = 5;
-int b = 7;
+﻿Console.WriteLine("Введите числа: ");
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
 int max = a;
-if (max < b) max = b;
-
-
-Console.WriteLine(max);
-
-int c = 2;
-int d = 10;
-int max1 = c;
-if (max1 < d) max1 = d;
-
-Console.WriteLine(max1);
-
-int e = -9;
-int f = -3;
-int max2 = e;
-if (max2 < f) max2 = f;
-
-Console.WriteLine(max2);
+if ( a < b ) max = b;
+Console.WriteLine (max);
