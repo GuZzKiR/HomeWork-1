@@ -1,10 +1,16 @@
-﻿Console.WriteLine("Введите трехзначное число: "); 
-while(true)
-{   
-    string input = Console.ReadLine( );
-        Console.WriteLine("{0}-{1}", input, input[1]);
-        break;
+﻿Console.WriteLine("Введите число: ");
+int num()
+{
+    int n = Convert.ToInt32(Console.ReadLine());
+    return n;
 }
+
+void numbers()
+{
+    int n = num();
+        Console.WriteLine(Convert.ToString(n)[1]);
+}
+numbers();
 
 
 
