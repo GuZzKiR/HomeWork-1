@@ -5,10 +5,9 @@ Console.Write("Введите число от 1 до 7: ");
 void week()
 {
     int n = Convert.ToInt32(Console.ReadLine());
-    if (n == 6) Console.Write("Yes it is Saturday!");
-    if (n == 7) Console.Write("Yes it is Sunday!");
-    if (n < 6) Console.Write("You are bad, it's a work time!");
-    if (n > 7) Console.Write("Oh my God, you broke me!");
+    if (n == 6 || n == 7) Console.Write("Yes it is weekend!");
+        else if (n > 7 || n==0) Console.Write("Oh my God, you broke me!");
+        else Console.Write ("You are bad, it's a work time!");   
 }
 week();
 
