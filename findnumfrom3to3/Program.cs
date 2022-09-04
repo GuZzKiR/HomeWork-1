@@ -1,14 +1,12 @@
-﻿//Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет. 
-Console.WriteLine("Введите число: ");
-int num()
+﻿// //Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет. 
+Console.Write("Введи число: ");
+int num = Convert.ToInt32(Console.ReadLine());
+string numt = Convert.ToString(num);
+if (numt.Length > 2)
 {
-    int n = Convert.ToInt32(Console.ReadLine());
-    return n;
+  Console.WriteLine(numt[2]);
 }
-
-void numbers()
+else 
 {
-    int n = num();
-        Console.WriteLine(Convert.ToString(n)[2]);
+  Console.WriteLine("Упс! Третьей цифры нет!");
 }
-numbers();
