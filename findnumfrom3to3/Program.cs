@@ -1,4 +1,5 @@
 ﻿// //Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет. 
+Console.Clear();
 Console.Write("Введи число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 string numt = Convert.ToString(num);
