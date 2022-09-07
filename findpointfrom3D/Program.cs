@@ -1,6 +1,10 @@
 ﻿//Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
 
 Console.Clear();
+Console.Write("Введите ваше имя ");
+string username = Console.ReadLine();
+
+    Console.WriteLine();
 Console.WriteLine("Введите координаты двух точек в 3D: ");
     
     Console.WriteLine("Введите координаты х1: ");
@@ -22,6 +26,12 @@ int z2 = Convert.ToInt32(Console.ReadLine());
 
 double P = Math.Sqrt(Math.Pow(x1 - x2, 2) + Math.Pow(y1 - y2, 2) + Math.Pow(z1 - z2, 2));
 Console.WriteLine("Расстояние между точками = "+ P);
+
+
+    Console.WriteLine();
+
+Console.Write("Так держать,  ");
+Console.WriteLine(username+"!");
 
 
 
