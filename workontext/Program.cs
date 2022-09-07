@@ -5,6 +5,7 @@
 
 // string s = "qwerty"
 //             012345
+Console.Clear();
 
 string Replace(string text, char oldvalue, char newvalue)
 {
@@ -22,10 +23,10 @@ string Replace(string text, char oldvalue, char newvalue)
 string newText = Replace(text, ' ', '|');
 Console.WriteLine(newText);
 Console.WriteLine();
-newText = Replace(text, 'к', 'К');
+newText = Replace(newText, 'к', 'К');
 Console.WriteLine(newText);
 Console.WriteLine();
-newText = Replace(text, 'с', 'С');
+newText = Replace(newText, 'с', 'С');
 Console.WriteLine(newText);
 
 
