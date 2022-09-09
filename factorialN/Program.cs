@@ -3,7 +3,7 @@ int i =1;
 int N = 1;
 for(i = 1; i <= n; i++)
 {
-    N=N*i;
+    N *= i;
 }
 Console.Write(N);
 
