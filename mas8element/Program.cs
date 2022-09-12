@@ -27,5 +27,5 @@ int g = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число: ");
 int h = Convert.ToInt32(Console.ReadLine());
 Console.Clear();
-Console.WriteLine("["+ string.Join(", ", +a, b, c, d, e ,f, g, h)+ "]");
-Console.WriteLine("[" +string.Join(" ,", numbers) + "]");
+Console.WriteLine("Массив введенного числа: "+"["+ string.Join(", ", +a, b, c, d, e ,f, g, h)+ "]");
+Console.WriteLine("Массив рандмоного выбора: "+"[" +string.Join(" ,", numbers) + "]");
