@@ -1,4 +1,7 @@
-﻿void InputArray(int[] array)
+﻿Console.Clear();
+
+Console.WriteLine("Программа замена элементов массива: положительные элементы замените на соответствующие отрицательные, и наоборот.");
+void InputArray(int[] array)
 {
     for (int i = 0; i < array.Length; i++)
     array[i] = new Random().Next(-9, 10);
