@@ -3,7 +3,7 @@
 
 Console.Clear();
 Console.WriteLine("Поиск суммы элементов, стоящих на нечётных позициях.");
-
+Console.WriteLine("-----------------");
 void InputArray(int[] array) 
 {
     for (int i = 0; i < array.Length; i++)
@@ -22,13 +22,13 @@ int SumArray(int[] array)
     return sum;
 }
 
-Console.WriteLine("Введите число: ");
+Console.WriteLine("Введите количество элементов в массиве: ");
 int n=Convert.ToInt32(Console.ReadLine());
 Console.Clear();
     Console.WriteLine("Массив состоит из " + n + " элементов!");
-        Console.WriteLine();
+        Console.WriteLine("-----------------");
 int[] array = new int[n];
     InputArray(array);
     Console.WriteLine("Исходный массив данных: [" + string.Join(", ", array) + "]");
-        Console.WriteLine();
+        Console.WriteLine("-----------------");
             Console.WriteLine("Сумма элементов, стоящих на нечётных позициях: " + SumArray(array));
