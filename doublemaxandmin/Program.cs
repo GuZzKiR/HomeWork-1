@@ -4,7 +4,7 @@ Console.Clear();
 Console.WriteLine("Программа ищет разницу между максимальным и минимальным элементов массива.");
 Console.WriteLine("-----------");
 
-Console.WriteLine("Введите необхожимое число элементов в массиве: ");
+Console.WriteLine("Введите необходимое число элементов в массиве: ");
 int n =Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("-----------");
 double[] array = new double[n]; 
