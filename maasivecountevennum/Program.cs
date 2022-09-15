@@ -3,7 +3,7 @@
 
 Console.Clear();
 Console.WriteLine("Программа, которая покажет количество четных чисел в массиве");
-
+Console.WriteLine("-----------------");
 
 void InputArray(int[] array) 
 {
@@ -22,7 +22,16 @@ int Finder (int[] array)
     }
     return count;
 }
-int[] array = new int[10];
+
+
+Console.WriteLine("Введите количество элементов в массиве: ");
+int n=Convert.ToInt32(Console.ReadLine());
+Console.Clear();
+    Console.WriteLine("Массив состоит из " + n + " элементов!");
+        Console.WriteLine("-----------------");
+
+int[] array = new int[n];
 InputArray(array);
-Console.WriteLine("Исходный массив данных: [" + string.Join(", ", array) + "]");
-Console.WriteLine("Колличество четных чисел массива: " + Finder(array)); 
+    Console.WriteLine("Исходный массив данных: [" + string.Join(", ", array) + "]");
+        Console.WriteLine("-----------------");
+            Console.WriteLine("Колличество четных чисел массива: " + Finder(array)); 
