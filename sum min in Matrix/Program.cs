@@ -44,9 +44,9 @@ void SumMinMatrix(int[,] matrix)
     }
     Console.Write($"{minSumRow + 1} строка");
 }
-Console.Write("Введите кол-во строк первой матрицы: ");
+Console.Write("Введите кол-во строк матрицы: ");
 int row = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите кол-во столбцов первой матрицы: ");
+Console.Write("Введите кол-во столбцов матрицы: ");
 int colum = Convert.ToInt32(Console.ReadLine());
 int[,] matrix = new int[row, colum];
 if (row < 4 && colum < 4)
