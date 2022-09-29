@@ -18,6 +18,8 @@ void SumNumberFromMtoN(int M, int N, int sum)
         Console.WriteLine($"Сумма натуральных элементов в промежутке от M до N: {sum}");
         return;
     }
+    else Console.WriteLine("Найти сумму натуральных элементов в заданном промежутке невозможно!");
+    return;
     sum = sum + (M++);
     SumNumberFromMtoN(M, N, sum);
 }
