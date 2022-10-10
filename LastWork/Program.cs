@@ -46,7 +46,7 @@ void PrintTask(string[] array)
 {
     Console.WriteLine("Исходящий массив:");
     PrintArray(array);
-    string[] shortArray = GetShortWordsArray(array);
+    string[] shortArray = GetShortWords(array);
     Console.WriteLine("Получившийся массив:");
     PrintArray(shortArray);
     Console.WriteLine();
